@@ -4,8 +4,14 @@
   "description": "Node js backend template",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "node test.js",
+    "start": "node index.js",
+    "prepare": "husky"
   },
   "author": "Prabir Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.9"
+  }
 }
